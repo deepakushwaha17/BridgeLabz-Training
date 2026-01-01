@@ -79,27 +79,29 @@ This repository serves as a comprehensive record of my learning journey, highlig
 
 ### Week 2 - Arrays And Strings
 
-- 22-Dec-2025 (Monday): Solved and submitted basic practice problems
+- 22-Dec-2025 (Monday) : Solved basic practice problems
 
-- 23-Dec-2025 (Tuesday): Completed assigned practice set
+- 23-Dec-2025 (Tuesday) : Completed assigned practice set
 
-- 24-Dec-2025 (Wednesday): Implemented array and method-based programs
+- 24-Dec-2025 (Wednesday) : Submitted programming elements and control flow
+  
+- 25-Dec-2025 (Thursday) : Implemented arrays and strings manipulation
 
-- 25-Dec-2025 (Thursday): Worked on string manipulation and method exercises
+- 26-Dec-2025 (Friday) : Worked on string built-in functions and method exercises
 
-- 26-Dec-2025 (Friday): Built number validators and calculator programs
+- 27-Dec-2025 (Saturday) : Implemented scenario-based problem solutions
 
-- 27-Dec-2025 (Saturday): Implemented scenario-based problem solutions
-
-- 28-Dec-2025 (Sunday): Practiced Java Date & Time API
+- 28-Dec-2025 (Sunday) : Practiced Java Date & Time API
 
 ### Week 3 - Scenario Based And OOPs Concept
 
-- 29-Dec-2025 (Monday): Completed Employee Wage Computation scenario and LeetCode problem
+- 29-Dec-2025 (Monday) : Completed Employee Wage Computation scenario and LeetCode problem
 
-- 30-Dec-2025 (Tuesday): Developed Snake & Ladder scenario; started OOP concepts
+- 30-Dec-2025 (Tuesday) : Developed Snake & Ladder scenario; started OOP concepts
 
-- 31-Dec-2025 (Wednesday): Learned Classes, Objects, Constructors, Instance & Static variables
+- 31-Dec-2025 (Wednesday) : Learned Classes, Objects, Constructors, Instance & Static variables
+  
+- 01-Jan-2026 (Thursday) : Learned this , ststic and final keyword and implemented it
 
 
 ## 🌟 Growth Journey
