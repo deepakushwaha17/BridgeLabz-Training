@@ -101,7 +101,23 @@ This repository serves as a comprehensive record of my learning journey, highlig
 
 - 31-Dec-2025 (Wednesday) : Learned Classes, Objects, Constructors, Instance & Static variables
   
-- 01-Jan-2026 (Thursday) : Learned this , ststic and final keyword and implemented it
+- 01-Jan-2026 (Thursday) : Learned this , static and final keyword and implemented it
+
+- 02-Jan-2026 (Friday) : Learned object modeling , class diagram and sequence diagram and implemented it
+
+- 03-Jan-2026 (Saturday) : Solved some scenario based problem and Inheritance Problem
+
+### Week 4 - Scenario Based And OOPs Concept
+
+- 05-Jan-2026 (Monday) : Solved some leetcode problem and Learned Encapsulation , Polymorphism , Interface and Abstract class
+  
+- 06-Jan-2026 (Tuesday) : Implemented Encapsulation , Polymorphism , Interface and Abstract class Problems
+
+- 07-Jan-2026 (Wednesday) :
+
+- 08-Jan-2026 (Thursday) :
+
+- 09-Jan-2026 (Friday) :
 
 
 ## 🌟 Growth Journey
