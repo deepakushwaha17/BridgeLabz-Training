@@ -3,6 +3,7 @@
 ## 👤 Trainee Details
 
 Name: Deepa Kushwaha
+
 Organization: BridgeLabz Solutions Pvt. Ltd.
 
 ## 📖 About This Repository
