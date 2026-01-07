@@ -31,6 +31,29 @@ The main goal is to provide a transparent record of my progress, demonstrating c
 | Problem Solving     | LeetCode (Java Solutions)                     |
 | Learning Approach   | Hands-on coding, daily assignments, scenario-based exercises |
 
+## Repository Layout
+BridgeLabz-Training (main repository)
+│
+├── Branch: core-java-practice
+│   ├── gcr-codebase
+│   │   ├── arrays
+│   │   ├── control-flow
+│   │   ├── methods
+│   │   ├── programming-elements
+│   │   └── strings
+│   ├── leetcode
+│   └── scenario-based
+│
+├── Branch: oops-practice
+│   ├── gcr-codebase
+|   |   ├── object-classes
+│   │   ├── constructor-variables-modifiers
+│   │   └── this-static-final-instanceof
+│   ├── leetcode
+│   └── scenario
+│
+└── Branch: reviews 
+
 ## 🧠 Learning Approach
 - Principle	Description
 - Logical Thinking First	Focus on understanding the problem before using shortcuts
