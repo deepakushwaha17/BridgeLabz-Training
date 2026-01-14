@@ -44,25 +44,12 @@ The main goal is to provide a transparent record of my progress, demonstrating c
 ## ✅ Current Status
 
 ### Completed Topics:
+- Core Java fundamentals, including control flow, methods, arrays, strings, utility programs, and scenario-based exercises.
 
-- Core Java Fundamentals
-- Control Flow (loops, conditions)
-- Methods & Functions
-- Arrays & Strings
-- Utility Programs
-- Scenario-Based Exercises
+- Object-Oriented Programming (OOP) concepts, including classes, constructors, encapsulation, inheritance, polymorphism, and abstraction, with exercises implemented in a separate branch.
 
-## 🔜 Next Steps
-
-- Dive into OOP Concepts:
-  - Object Classes
-  - Consructors
-  - Encapsulation
-  - Inheritance
-  - Polymorphism
-  - Abstraction
-- Implement OOP exercises in a separate branch
-- Continue solving LeetCode Java problems
+### 🔜 Next Steps:
+- Focus on Data Structures and Algorithms (DSA) to enhance problem-solving skills.
 
 ## 📊 Progress Tracking
 
