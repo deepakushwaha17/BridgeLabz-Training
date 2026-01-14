@@ -73,53 +73,57 @@ This repository serves as a comprehensive record of my learning journey, highlig
  - Clean, well-documented, maintainable code
 
 ## 🗓 Learning Progress Summary
-### Week 1 – Java Fundamentals
+### Week 1 – Java Fundamentals and Core Concepts
 
-- 20-Dec-2025 (Saturday): Studied Java basics and variables; solved elementary problems
+- 20-Dec-2025 (Saturday): Studied Java basics and variables; solved elementary problems.
 
-- 21-Dec-2025 (Sunday): Practiced loops, conditional statements, and control flow
+- 21-Dec-2025 (Sunday): Practiced loops, conditional statements, and control flow.
 
-### Week 2 - Arrays And Strings
+- 22-Dec-2025 (Monday) : Solved basic practice problems.
 
-- 22-Dec-2025 (Monday) : Solved basic practice problems
+- 23-Dec-2025 (Tuesday) : Completed assigned practice set.
 
-- 23-Dec-2025 (Tuesday) : Completed assigned practice set
-
-- 24-Dec-2025 (Wednesday) : Submitted programming elements and control flow
+- 24-Dec-2025 (Wednesday) : Submitted programming elements and control flow.
   
-- 25-Dec-2025 (Thursday) : Implemented arrays and strings manipulation
+- 25-Dec-2025 (Thursday) : Implemented arrays and strings manipulation.
 
-- 26-Dec-2025 (Friday) : Worked on string built-in functions and method exercises
+- 26-Dec-2025 (Friday) : Worked on string built-in functions and method exercises.
 
-- 27-Dec-2025 (Saturday) : Implemented scenario-based problem solutions
+- 27-Dec-2025 (Saturday) : Implemented scenario-based problem solutions.
 
-- 28-Dec-2025 (Sunday) : Practiced Java Date & Time API
+- 28-Dec-2025 (Sunday) : Practiced Java Date & Time API.
 
-### Week 3 - Scenario Based And OOPs Concept
-
-- 29-Dec-2025 (Monday) : Completed Employee Wage Computation scenario and LeetCode problem
-
-- 30-Dec-2025 (Tuesday) : Developed Snake & Ladder scenario; started OOP concepts
-
-- 31-Dec-2025 (Wednesday) : Learned Classes, Objects, Constructors, Instance & Static variables
+- 29-Dec-2025 (Monday) : Completed Employee Wage Computation scenario and LeetCode problem.
   
-- 01-Jan-2026 (Thursday) : Learned this , static and final keyword and implemented it
+### Week 2 - Started Object-Oriented Programming
 
-- 02-Jan-2026 (Friday) : Learned object modeling , class diagram and sequence diagram and implemented it
+- 30-Dec-2025 (Tuesday) : Developed Snake & Ladder scenario; started OOP concepts.
 
-- 03-Jan-2026 (Saturday) : Solved some scenario based problem and Inheritance Problem
-
-### Week 4 - Scenario Based And OOPs Concept
-
-- 05-Jan-2026 (Monday) : Solved some leetcode problem and Learned Encapsulation , Polymorphism , Interface and Abstract class
+- 31-Dec-2025 (Wednesday) : Learned Classes, Objects, Constructors, Instance & Static variables.
   
-- 06-Jan-2026 (Tuesday) : Implemented Encapsulation , Polymorphism , Interface and Abstract class Problems
+- 01-Jan-2026 (Thursday) : Learned this , static and final keyword and implemented it.
 
-- 07-Jan-2026 (Wednesday) :
+- 02-Jan-2026 (Friday) : Learned object modeling , class diagram and sequence diagram and implemented it.
 
-- 08-Jan-2026 (Thursday) :
+- 03-Jan-2026 (Saturday) : Solved some scenario based problem and Inheritance Problem.
 
-- 09-Jan-2026 (Friday) :
+- 05-Jan-2026 (Monday) : Solved some leetcode problem and Learned Encapsulation , Polymorphism , Interface and Abstract class.
+  
+- 06-Jan-2026 (Tuesday) : Implemented Encapsulation , Polymorphism , Interface and Abstract class Problems.
+
+- 07-Jan-2026 (Wednesday) : Solved some scenario-based problem.
+
+### Week 3 - Started with Data Structure and Algorithms 
+
+- 08-Jan-2026 (Thursday) : Studied Key Features , Types of data structures in java and about types of Linked List.
+
+- 09-Jan-2026 (Friday) : Implemented the singly, doubly and circular linked list scenario-based problem.
+
+- 12-Jan-2026(Monday) : Solved some oops concept related scenario based problem.
+
+- 13-Jan-2026(Tuesday) : Continued with oops concept scenario problems and Implemented git commands like git stash, pop, pull, fetch and resolve merge conflicts.
+
+- 14-Jan-2026(Wednesday) : Learned Stack, Queue, HashMap and Hashing function and implemented it.
 
 
 ## 🌟 Growth Journey
