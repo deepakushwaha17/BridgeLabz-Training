@@ -106,11 +106,15 @@ This repository serves as a comprehensive record of my learning journey, highlig
 
 - 09-Jan-2026 (Friday) : Implemented the singly, doubly and circular linked list scenario-based problem.
 
-- 12-Jan-2026(Monday) : Solved some oops concept related scenario based problem.
+- 12-Jan-2026 (Monday) : Solved some oops concept related scenario based problem.
 
-- 13-Jan-2026(Tuesday) : Continued with oops concept scenario problems and Implemented git commands like git stash, pop, pull, fetch and resolve merge conflicts.
+- 13-Jan-2026 (Tuesday) : Continued with oops concept scenario problems and Implemented git commands like git stash, pop, pull, fetch and resolve merge conflicts.
 
-- 14-Jan-2026(Wednesday) : Learned Stack, Queue, HashMap and Hashing function and implemented it.
+- 14-Jan-2026 (Wednesday) : Learned Stack, Queue, HashMap and Hashing function and implemented it.
+
+- 15-Jan-2026 (Thursday) : Learned Sorting algorithms and implemented it.
+
+- 16-Jan-2026 (Friday) : Continued with sorting problems and Started the Address Book Problem and solved UC 1 and UC 2.
 
 
 ## 🌟 Growth Journey
