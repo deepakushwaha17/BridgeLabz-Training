@@ -48,8 +48,10 @@ The main goal is to provide a transparent record of my progress, demonstrating c
 
 - Object-Oriented Programming (OOP) concepts, including classes, constructors, encapsulation, inheritance, polymorphism, and abstraction, with exercises implemented in a separate branch.
 
+- Data Structures and Algorithms (DSA) concepts, including Stack, Queue, LinkedList, Sorting Algorithms, StringBuffer, StringBuilder, and IOStream, to enhance problem-solving skills.
+
 ### 🔜 Next Steps:
-- Focus on Data Structures and Algorithms (DSA) to enhance problem-solving skills.
+- Java Collections Framework, including List, Set, Queue, and Map with practical implementations using generics and real-world scenarios.
 
 ## 📊 Progress Tracking
 
@@ -116,6 +118,17 @@ This repository serves as a comprehensive record of my learning journey, highlig
 
 - 16-Jan-2026 (Friday) : Continued with sorting problems and Started the Address Book Problem and solved UC 1 and UC 2.
 
+- 17-Jan-2026 (Saturday) : Learned StringBuilder, StringBuffer and IO Stream and implemented it.
+
+- 19-Jan-2026 (Monday) : Learned about Runtime Analysis and implemented it.
+
+- 20-Jan-2026 (Tuesday) : Solved some DSA related scenario-based problems.
+
+### Week 4 - Started with Java Collections and Streams
+
+- 21-Jan-2026 (Wednesday) : Learned about Java Generics and implemented it.
+
+  
 
 ## 🌟 Growth Journey
 This repository reflects my dedication, problem-solving skills, and consistent growth as a Java trainee at BridgeLabz.
