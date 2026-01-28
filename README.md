@@ -128,7 +128,15 @@ This repository serves as a comprehensive record of my learning journey, highlig
 
 - 21-Jan-2026 (Wednesday) : Learned about Java Generics and implemented it.
 
+- 22-Jan-2026 (Thursday) : Learned about collections e.g. list,set,queue,map . Solved practice problem of list and set.
+
+- 23-Jan-2026 (Friday) : Continued with collections and solved practice problem of queue and map. Also solved some scenario problems.
   
+- 26-Jan-2026 (Monday) : Learned about IO Streams and implemented it by solving practice problems.
+  
+- 27-Jan-2026 (Tuesday) : Learned about Exception Handling and implemented it by solving practice problems. Also solved LexicalTwist scenario problem.
+
+- 28-Jan-2026 (Wednesday) : Learned about Regular Expressions(Regex) and solved some practice problem . Also solved Flip Key Logical scenario problem.  
 
 ## 🌟 Growth Journey
 This repository reflects my dedication, problem-solving skills, and consistent growth as a Java trainee at BridgeLabz.
