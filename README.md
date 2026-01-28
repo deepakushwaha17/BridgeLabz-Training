@@ -32,6 +32,53 @@ The main goal is to provide a transparent record of my progress, demonstrating c
 | Problem Solving     | LeetCode (Java Solutions)                     |
 | Learning Approach   | Hands-on coding, daily assignments, scenario-based exercises |
 
+## Repository Layout
+
+```
+BridgeLabz-Training (main repository)
+│
+├── Branch: core-java-practice
+│   ├── gcr-codebase
+│   │   ├── arrays
+│   │   ├── control-flow
+│   │   ├── methods
+│   │   ├── programming-elements
+│   │   └── strings
+│   ├── leetcode
+│   └── scenario-based
+│
+├── Branch: oops-practice
+│   ├── gcr-codebase
+|   |   ├── object-classes
+│   │   ├── constructor-variables-modifiers
+│   │   ├── this-static-final-instanceof
+|   |   ├── oops-pillars
+|   |   ├── inheritance
+|   |   └── uml-diagrams
+│   ├── leetcode
+│   └── scenario
+│
+├── Branch: dsa-practice
+│   ├── gcr-codebase
+|   |   ├── linked-list
+│   │   ├── stack-queue-hashmap
+|   |   ├── sorting
+│   │   ├── string-io-searching
+|   |   └── runtime-analysis  
+│   ├── leetcode
+│   └── scenario
+|
+├── Branch: collections-practice
+│   ├── gcr-codebase
+|   |   ├── generics
+│   │   ├── collections
+│   │   ├── streams
+|   |   ├── exception
+│   │   └── regex
+│   ├── leetcode
+│   └── scenario
+└── Branch: reviews 
+```
 
 ## 🧠 Learning Approach
 - Principle	Description
