@@ -74,7 +74,8 @@ BridgeLabz-Training (main repository)
 │   │   ├── collections
 │   │   ├── streams
 |   |   ├── exception
-│   │   └── regex
+│   │   ├── regex
+│   │   └── junit-practice
 │   ├── leetcode
 │   └── scenario
 └── Branch: reviews 
@@ -183,7 +184,13 @@ This repository serves as a comprehensive record of my learning journey, highlig
   
 - 27-Jan-2026 (Tuesday) : Learned about Exception Handling and implemented it by solving practice problems. Also solved LexicalTwist scenario problem.
 
-- 28-Jan-2026 (Wednesday) : Learned about Regular Expressions(Regex) and solved some practice problem . Also solved Flip Key Logical scenario problem.  
+- 28-Jan-2026 (Wednesday) : Learned about Regular Expressions(Regex) and solved some practice problem . Also solved Flip Key Logical scenario problem.
+
+- 29-Jan-2026 (Thursday) : Continued with regex practice problem and also Learned about JUnit .
+
+- 30-Jan-2026 (Friday) : Learned how to create test cases in junit and solved the practice problem of JUnit.
+
+- 31-Jan-2026 (Saturday) : Learned about the reflection and annotations. Also solved FutureLogistics scenario problem.
 
 ## 🌟 Growth Journey
 This repository reflects my dedication, problem-solving skills, and consistent growth as a Java trainee at BridgeLabz.
