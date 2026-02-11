@@ -192,6 +192,30 @@ This repository serves as a comprehensive record of my learning journey, highlig
 
 - 31-Jan-2026 (Saturday) : Learned about the reflection and annotations. Also solved FutureLogistics scenario problem.
 
+- 02-Feb-2026 (Monday) : Solved the practice set problems of Reflection and Annotations.
+
+### Week 5 - Started with IO Programming
+
+- 02-Feb-2026 (Monday) : Learned about CSV file handling and solved practice set problems of CSV Handling.
+- 03-Feb-2026 (Tuesday) : Learned about JSON Data and solved practice set problems of JSON Data. Also solved FactoryRobotHazardAnalyzer and StreamBuzz scenario problem.
+- 04-Feb-2026 (Wednesday) : Learned about Lambda Expressions and Functional Interfaces and solved there practice set problems.
+- 05-Feb-2026 (Thursday) : Learned about Stream API and solved practice set problems of Stream API . Also AeroVigil scenario problem.
+- 06-Feb-2026 (Friday) : Learned about Collectors and solved the 
+- 07-Feb-2026 (Saturday) :
+- 09-Feb-2026 (Monday) :
+- 10-Feb-2026 (Tuesday) :
+- 11-Feb-2026 (Wednesday) :
+- 12-Feb-2026 (Thursay) :
+- 13-Feb-2026 (Friday) :
+
+### Week 6 - Started with Java 8 and its Features
+
+### Week 7 - Started with Solution Designing
+
+### Week 8 - Started with Multi-threading
+
+### Week 9 - Started with JDBC and DBMS
+
 ## 🌟 Growth Journey
 This repository reflects my dedication, problem-solving skills, and consistent growth as a Java trainee at BridgeLabz.
 
