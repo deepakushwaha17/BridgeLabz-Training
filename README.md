@@ -75,9 +75,47 @@ BridgeLabz-Training (main repository)
 │   │   ├── streams
 |   |   ├── exception
 │   │   ├── regex
+|   |   ├── reflection
+|   |   ├── annotations
 │   │   └── junit-practice
 │   ├── leetcode
 │   └── scenario
+|
+├── Branch: io-programming-practice
+│   ├── gcr-codebase
+|   |   ├── csvHandling
+│   │   └── json-practice
+│   ├── leetcode
+│   └── scenario
+|
+├── Branch: java-eight-features-practice
+│   ├── gcr-codebase
+|   |   ├── lambda-expressions
+│   │   ├── functional-interface
+|   |   ├── stream-api
+│   │   └── collectors
+│   ├── leetcode
+│   └── scenario-based
+|
+├── Branch: design-pattern-practice
+│   ├── gcr-codebase
+│   │   ├── design-pattern
+|   |   └── SonarQube Report (AddressBookSystem)
+│   ├── leetcode
+│   └── scenario
+|
+├── Branch: multi-threading-practice
+│   ├── gcr-codebase
+│   │   └── multi-threading
+│   ├── leetcode
+│   └── scenario
+|
+├── Branch: jdbc-base-practice
+│   ├── gcr-codebase
+│   │   └── health-clinic-app 
+│   ├── leetcode
+│   └── scenario
+|
 └── Branch: reviews 
 ```
 
@@ -98,8 +136,13 @@ BridgeLabz-Training (main repository)
 
 - Data Structures and Algorithms (DSA) concepts, including Stack, Queue, LinkedList, Sorting Algorithms, StringBuffer, StringBuilder, and IOStream, to enhance problem-solving skills.
 
-### 🔜 Next Steps:
 - Java Collections Framework, including List, Set, Queue, and Map with practical implementations using generics and real-world scenarios.
+- IO programming concepts, including File handling, streams, readers/writers.
+- Java 8  and its features concepts, including Lambdas, Streams, functional interfaces, e.g., filtering/sorting collections using Streams.
+- Designing principles concepts, including design patterns for creating maintainable and reusable code.
+- MutiThreading concepts, including thread creation, synchronization, thread pools, and concurrency utilities.
+- JDBC-DBMS concepts, including Connecting Java with databases, executing queries, handling transactions; e.g., managing student records in a MySQL database.
+ 
 
 ## 📊 Progress Tracking
 
@@ -224,11 +267,9 @@ This repository serves as a comprehensive record of my learning journey, highlig
 
 - 09-Feb-2026 (Monday) : Learned about JDBC and DBMS. Also solved Health-clinic App scenario based problem and implemented JDBC and DBMS in it.
  
-- 10-Feb-2026 (Tuesday) :
-- 11-Feb-2026 (Wednesday) :
-- 12-Feb-2026 (Thursay) :
-- 13-Feb-2026 (Friday) :
-
+- 10-Feb-2026 (Tuesday) : Solved three scenario based problem of M1 mock test.
+  
+- 11-Feb-2026 (Wednesday) : Solved some scenario based problems.
 
 ## 🌟 Growth Journey
 This repository reflects my dedication, problem-solving skills, and consistent growth as a Java trainee at BridgeLabz.
