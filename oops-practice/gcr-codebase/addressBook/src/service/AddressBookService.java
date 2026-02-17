@@ -1,86 +1,105 @@
 package service;
-import dao.AddressBookDAO;
-import model.Contact;
+
+import dao.*;
 import model.AddressBook;
-import java.util.*;
+import model.Contact;
+import java.util.List;
 
-//Service Layer - Contains business logic and validations & Communicates between Presentation and DAO layers
 public class AddressBookService {
+    private AddressBookDAO addressBookDAO;
+    private ContactDAO contactDAO;
+    private AddressBookIOService ioService;
 
-	AddressBookDAO dao ;
-	public AddressBookService(AddressBookDAO dao) {
-		this.dao = dao;
-	}
-	
-	//UC 6 : Add new Address Book
-	public void createAddressBook(String name) {
-		if(dao.doesBookExist(name)) {
-			System.out.println("Address Book already exists.");
-			return;
-		}
-		AddressBook newBook = new AddressBook(name);
-		dao.createAddressBook(newBook);
-	}
-	
-	//UC 2 : Add new Contact
-	public String addContact(String bookName, Contact contact) {
-		//Validate address book exists or not
-		if(!dao.doesBookExist(bookName)) {
-			return "Address Book not found.";
-		}
-		AddressBook book = dao.getAddressBook(bookName);
-		ArrayList<Contact> contactList = book.getContacts();
-		
-		//UC 7 : Check for Duplicate Entry
-		boolean isDuplicate = contactList.stream().anyMatch(c->c.equals(contact));
-		if(isDuplicate) {
-			return "Duplicate Entry! Person already exists.";
-		}
-		
-		//If valid, call DAO to save
-		dao.addContactToBook(bookName, contact);
-		return "Contact added successfully.";	
-	}
-	
-	//UC 3 : Edit existing Contact
-	public String editContact(String bookName, String firstName, String lastName , Contact newDetails) {
-		if(!dao.doesBookExist(bookName)) {
-			return "Address Book not found.";
-		}
-		AddressBook book = dao.getAddressBook(bookName);
-        ArrayList<Contact> contactList = book.getContacts();
+    public AddressBookService(AddressBookDAO addressBookDAO, ContactDAO contactDAO) {
+        this.addressBookDAO = addressBookDAO;
+        this.contactDAO = contactDAO;
+    }
 
-        for (int i = 0; i < contactList.size(); i++) {
-            Contact c = contactList.get(i);
-            if (c.getFirstName().equalsIgnoreCase(firstName) && c.getLastName().equalsIgnoreCase(lastName)) {
-            	
-                // Keep original names to maintain identity, update other details
-                newDetails.setFirstName(firstName); 
-                newDetails.setLastName(lastName);
-                
-                dao.updateContact(bookName, i, newDetails);
+    public void createAddressBook(String name) {
+        if(addressBookDAO.doesBookExist(name)) {
+            System.out.println("Address Book already exists.");
+            return;
+        }
+        AddressBook book = new AddressBook(name);
+        addressBookDAO.createAddressBook(book);
+        System.out.println("Address Book created successfully.");
+    }
+
+    public String addContact(String bookName, Contact contact) {
+        if(!addressBookDAO.doesBookExist(bookName)) {
+        	return "Address Book not found.";
+        }
+        AddressBook book = addressBookDAO.getAddressBook(bookName);
+        if(book.getContacts().contains(contact)) {
+        	return "Duplicate Entry!";
+        }
+        contactDAO.saveContact(book, contact);
+        return "Contact added successfully.";
+    }
+
+    public String editContact(String bookName, String firstName, String lastName, Contact newDetails) {
+        if(!addressBookDAO.doesBookExist(bookName)) {
+        	return "Address Book not found.";
+        }
+        AddressBook book = addressBookDAO.getAddressBook(bookName);
+        List<Contact> list = book.getContacts();
+        for(int i=0;i<list.size();i++){
+            Contact c = list.get(i);
+            if(c.getFirstName().equalsIgnoreCase(firstName) && c.getLastName().equalsIgnoreCase(lastName)){
+                contactDAO.updateContact(book, i, newDetails);
                 return "Contact updated successfully.";
             }
         }
         return "Contact not found.";
-	}
-	
-	//UC 4 : Delete a person
-	public String deleteContact(String bookName, String firstName, String lastName) {
-        if (!dao.doesBookExist(bookName)) {
+    }
+
+    public String deleteContact(String bookName, String firstName, String lastName) {
+        if(!addressBookDAO.doesBookExist(bookName)) {
         	return "Address Book not found.";
         }
-
-        AddressBook book = dao.getAddressBook(bookName);
-        Contact contactToDelete = book.getContacts().stream()
-                .filter(c -> c.getFirstName().equalsIgnoreCase(firstName) && c.getLastName().equalsIgnoreCase(lastName))
-                .findFirst()
-                .orElse(null);
-
-        if (contactToDelete != null) {
-            dao.deleteContact(bookName, contactToDelete);
+        AddressBook book = addressBookDAO.getAddressBook(bookName);
+        List<Contact> list = book.getContacts();
+        Contact target = null;
+        for(Contact c:list){
+            if(c.getFirstName().equalsIgnoreCase(firstName) && c.getLastName().equalsIgnoreCase(lastName)){
+                target=c; break;
+            }
+        }
+        if(target!=null){
+            contactDAO.deleteContact(book, target);
             return "Contact deleted successfully.";
         }
         return "Contact not found.";
+    }
+
+    public void setIOService(AddressBookIOService ioService) { this.ioService = ioService; }
+
+    public void writeAddressBook(String bookName){
+        if(ioService==null){
+        	System.out.println("IO Strategy not set.");
+        	return; 
+        }
+        AddressBook book = addressBookDAO.getAddressBook(bookName);
+        if(book!=null) {
+        	ioService.writeData(book.getContacts());
+        }
+        else {
+        	System.out.println("Address Book not found.");
+        }
+    }
+
+    public void readAddressBook(){
+        if(ioService==null){ 
+        	System.out.println("IO Strategy not set."); 
+        	return; 
+        }
+        List<Contact> contacts = ioService.readData();
+        if(contacts.isEmpty()) {
+        	System.out.println("No contacts found in the file.");
+        }
+        else { 
+        	System.out.println("--- Contacts from File ---"); 
+        	contacts.forEach(System.out::println);
+        }
     }
 }

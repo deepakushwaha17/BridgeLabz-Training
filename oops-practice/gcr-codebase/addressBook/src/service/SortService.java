@@ -1,36 +1,28 @@
 package service;
 
-import dao.AddressBookDAO;
+import model.AddressBook;
 import model.Contact;
-import java.util.*;
-import java.util.stream.Collectors;
+
+import java.util.Comparator;
+import java.util.List;
 
 public class SortService {
-    private AddressBookDAO dao;
 
-    public SortService(AddressBookDAO dao) {
-        this.dao = dao;
+    public void sortByName(AddressBook book){
+        List<Contact> list = book.getContacts();
+        list.sort(Comparator.comparing(Contact::getFirstName)
+                .thenComparing(Contact::getLastName));
     }
 
-    // UC 11 & 12 : Sort contacts by name,city,state or zip
-    public List<Contact> sortContacts(String bookName, String criteria) {
-        if (!dao.doesBookExist(bookName)) return new ArrayList<>();
-        
-        List<Contact> contacts = dao.getAddressBook(bookName).getContacts();
-        Comparator<Contact> comparator = null;
+    public void sortByCity(AddressBook book){
+        book.getContacts().sort(Comparator.comparing(Contact::getCity));
+    }
 
-        if (criteria.equalsIgnoreCase("name")) 
-            comparator = Comparator.comparing(c -> c.getFirstName() + c.getLastName());
-        else if (criteria.equalsIgnoreCase("city")) 
-            comparator = Comparator.comparing(Contact::getCity);
-        else if (criteria.equalsIgnoreCase("state")) 
-            comparator = Comparator.comparing(Contact::getState);
-        else if (criteria.equalsIgnoreCase("zip")) 
-            comparator = Comparator.comparing(Contact::getZip);
+    public void sortByState(AddressBook book){
+        book.getContacts().sort(Comparator.comparing(Contact::getState));
+    }
 
-        if (comparator != null) {
-            return contacts.stream().sorted(comparator).collect(Collectors.toList());
-        }
-        return contacts;
+    public void sortByZip(AddressBook book){
+        book.getContacts().sort(Comparator.comparing(Contact::getZip));
     }
 }
