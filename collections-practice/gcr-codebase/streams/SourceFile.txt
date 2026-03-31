@@ -1,0 +1,7 @@
+File Handling in Java
+This is a sample text file.
+It is used to test reading and writing files using FileInputStream and FileOutputStream.
+Java makes file handling easy and efficient.
+Hello Java.
+Hello Java.
+Hello World.
